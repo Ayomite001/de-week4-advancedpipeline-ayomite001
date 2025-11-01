@@ -21,11 +21,13 @@ if __name__ == "__main__":
     Base_url = conf.get_url()
     Limit  = conf.get_limit()
     Timeout = conf.get_timeout()
-    print("URL:", Base_url)
-    print("Timeout:", Timeout)
-    print("Limit:", Limit)
+    # print("URL:", Base_url)
+    # print("Timeout:", Timeout)
+    # print("Limit:", Limit)
 
-
+print("URL:", Base_url)
+print("Timeout:", Timeout)
+print("Limit:", Limit)
 
 
 
