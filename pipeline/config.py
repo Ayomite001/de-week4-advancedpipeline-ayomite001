@@ -18,16 +18,13 @@ class ConfigManager:
 conf = ConfigManager()
     
 if __name__ == "__main__":
-    Base_url = conf.get_url()
-    Limit  = conf.get_limit()
-    Timeout = conf.get_timeout()
-    # print("URL:", Base_url)
-    # print("Timeout:", Timeout)
-    # print("Limit:", Limit)
-
-print("URL:", Base_url)
-print("Timeout:", Timeout)
-print("Limit:", Limit)
+    base_url = conf.get_url()
+    limit  = conf.get_limit()
+    timeout = conf.get_timeout()
+    
+# print("URL:", base_url)
+# print("Timeout:", timeout)
+# print("Limit:", limit)
 
 
 
